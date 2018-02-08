@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	font-family: "Trebuchet MS";
+	background-image: url(../img/ueyn.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*{
+	box-sizing: border-box;
+}
+.alfred{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -90%);
+	opacity: 1;	
+	transition: 0.4s;
+}
+.control-panel{
+	padding: 15px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%);
+	width: 500px;
+	height: 250px;
+	background-image: url(../img/9.jpg);
+	border-radius: 10%;
+	border:4px solid black;	
+}
+.alfred.-invisible{
+	opacity:0;
+	transition: 0.4s;
+}
+.bubble{
+	opacity: 0;
+	position: absolute;
+	right:-240px;
+	top:-20px;
+	padding: 25px;
+	background-color: white;
+	color: black;
+	font-weight: 900;
+	border-radius: 15px 15px 15px 1px;
+	min-width: 350px;
+	transition: 0.4s;
+}
+
+.bubble.-visible{
+	opacity:1;
+	
+}
+input, button{
+	border-radius: 4px;
+	padding: 6px;
+	font-size:13px;
+	font-weight: 900;
+	border: none;
+	outline: none;
+}
+input{
+	margin-right: 20px;
+}
+button{
+	background-color:#f4f4f4;
+	transition: 0.3s;
+}
+button:hover{
+	background-color: black;
+	color: white;
+}
+button:active{
+	background-color: blue;
+	color:white;
+}
+.varpanel button{
+	margin-top: 20px;
+}
+.test-array{
+	position: absolute;
+	top: 20px;
+	left:20px;
+	min-width: 200px;
+	max-width: 500px;
+	min-height: 100px;
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color: #06275b;
+
+}
+.test-item{
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 30px;
+	font-size: 16px;
+	font-weight: 900;
+	color: black;
+	margin-top: 8px;
+	margin-left: 5px;
+}
